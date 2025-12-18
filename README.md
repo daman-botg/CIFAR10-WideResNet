@@ -64,21 +64,3 @@ NumPy & Matplotlib: Data handling and visualization
 
 Torchvision: Dataset utilities and transforms
 
-
-**LAYOUT**
-
-CIFAR10-WideResNet/
-├─ data/                   # Downloaded CIFAR10 dataset
-│   ├─ batches/            # Training and test batches (Python pickle files)
-│   └─ cifar-10-python.tar.gz
-├─ notebooks/              # Jupyter notebooks
-│   └─ train.ipynb         # Notebook used for training the model
-├─ src/                    # Python scripts
-│   ├─ model.py            # WideResNet & residual block definitions
-│   ├─ data.py             # Dataset loading and DataLoaders
-│   └─ train.py            # Training pipeline with Learner
-├─ outputs/                # Saved models and plots
-│   ├─ wrn_cifar10.pth     # Model weights only
-│   └─ wrn_cifar10.pkl     # Full learner object (weights + transforms)
-├─ requirements.txt        # Python dependencies
-└─ README.md               # Project description and instructions
