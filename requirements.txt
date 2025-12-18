@@ -1,0 +1,5 @@
+fastai==2.8.5
+torch==2.9.0+cu126  # or your nightly CUDA version
+torchvision==0.24.0+cu126
+matplotlib
+numpy
