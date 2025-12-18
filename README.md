@@ -1,8 +1,6 @@
 ****CIFAR10-WideResNet****
 
-**CIFAR10 WideResNet 🚀**
-
-AI-powered image classification system using Wide Residual Networks for the CIFAR10 dataset.
+image classification system using Wide Residual Networks for the CIFAR10 dataset.
 
 An end-to-end deep learning pipeline that classifies 32×32 images into 10 categories with high accuracy, demonstrating the effectiveness of deep residual networks on small-scale image datasets.
 
