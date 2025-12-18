@@ -65,7 +65,7 @@ NumPy & Matplotlib: Data handling and visualization
 Torchvision: Dataset utilities and transforms
 
 
-**LAYOUT******************
+**LAYOUT**
 
 CIFAR10-WideResNet/
 ├─ data/                   # Downloaded CIFAR10 dataset
