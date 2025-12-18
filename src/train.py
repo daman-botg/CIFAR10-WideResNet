@@ -25,7 +25,7 @@ learn.clip = 0.1
 learn.lr_find()
 
 # Train
-learn.fit_one_cycle(10, 5e-3, wd=1e-4)
+learn.fit_one_cycle(30, 5e-3, wd=1e-4)
 
 # Save checkpoint and export for inference
 learn.save('outputs/wrn_cifar10_checkpoint')
